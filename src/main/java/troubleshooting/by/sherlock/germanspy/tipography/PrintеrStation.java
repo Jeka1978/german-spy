@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * @author Evgeny Borisov
  */
 @Component
-public class PrinterStation {
+public class PrintеrStation {
     public void print(Order order) {
 
         for (int i = 0; i < order.getAmount(); i++) {

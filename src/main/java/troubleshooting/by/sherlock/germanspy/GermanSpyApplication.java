@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-//@ImportResource(locations = "c:\\tmp\\conf.groovy")
+@ImportResource(locations = "file:hack.groovy")
 public class GermanSpyApplication {
 
 	public static void main(String[] args) {
